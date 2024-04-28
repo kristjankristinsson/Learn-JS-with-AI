@@ -1,0 +1,86 @@
+body {
+  background-color: hsla(51, 100%, 50%, 0.705);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+h1 {
+  font-family: monospace;
+  font-weight: 600;
+}
+
+button {
+  color: white;
+  background-color: gold;
+  border-radius: 15px;
+  border: none;
+  font-family: sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 10px;
+}
+
+button:hover {
+  background-color: hsl(36, 95%, 59%);
+}
+
+#codeInput {
+  border: none;
+  border-radius: 10px;
+  background-color: black;
+  color: hsl(300, 100%, 50%);
+}
+
+#darkMode {
+  width: 50px;
+  height: 25px;
+  color: white;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+#feedback {
+  font-family: sans-serif;
+  font-weight: 600;
+  color: hsl(310, 100%, 50%);
+  width: 350px;
+}
+
+.hint {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: hsla(310, 79%, 59%, 0.712);
+  color: white;
+  font-family: monospace;
+  cursor: pointer;
+}
+
+.hint:hover {
+  background-color: hsl(310, 79%, 59%);
+}
+
+p {
+  font-size: 12px;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+#roadMap {
+  width: 400px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  margin-left: -500px;
+  font-family: monospace;
+  color: hsl(293, 100%, 50%);
+  cursor: pointer;
+  text-decoration: underline;
+}
